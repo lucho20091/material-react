@@ -1,12 +1,20 @@
 import { Button } from "@/components/ui/button"
-import AccordionDemo from "@/components/Accordion"
+import Navbar from "./components/Navbar"
+import { Routes, Route } from "react-router-dom"
+import Shadcn from "./pages/Shadcn"
+import Material from "./pages/Material"
+import * as ROUTES from "./constants/routes"
 
 function App() {
   return (
-    <>
-      <Button onClick={() => console.log('button clicked :D')}>Click me</Button>
-      <AccordionDemo />
-    </>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path={ROUTES.SHADCN} element={< Shadcn/>} />
+        <Route path={ROUTES.MATERIAL} element={<Material />} />
+        
+      </Routes>
+    </div>
   )
 }
 
