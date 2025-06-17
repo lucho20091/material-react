@@ -12,7 +12,7 @@ import { data } from "@/utils/data";
 import { Github, CodeXml } from "lucide-react";
 export default function Journey() {
   return (
-    <div className="p-4">
+    <div className="p-4 mx-auto max-w-screen-lg">
       <h1 className="text-2xl md:text-4xl">
         My Journey through Web Development
       </h1>
@@ -200,7 +200,11 @@ export default function Journey() {
             </TableHeader>
             <TableBody>
               {data
-                .filter((item) => item.technologies.includes("React"))
+                .filter(
+                  (item) =>
+                    item.technologies.includes("React") &&
+                    !item.technologies.includes("Express")
+                )
                 .map((item) => (
                   <TableRow key={item.id}>
                     <TableCell>{item.projectName}</TableCell>
@@ -290,7 +294,7 @@ export default function Journey() {
           server to run backend code, and most of the options I saw were paid
           options, Next really solves this by easily deploying them in Vercel
           for free, server side rendering is a really cool concept, it reminds
-          me of php (I saw a little bit of php when I first started).
+          me of php (First tutorial I saw was php).
           <Table>
             <TableHeader>
               <TableRow>
