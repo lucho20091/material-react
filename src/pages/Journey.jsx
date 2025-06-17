@@ -132,6 +132,49 @@ export default function Journey() {
             </TableBody>
           </Table>
         </div>
+        <div className="Firebase">
+          <h2 className="text-xl md:text-2xl mt-2">Firebase</h2>
+          Firebase has its magic, easy to use, great documentation, and great
+          for small projects due to it being free as well.
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead>Name</TableHead>
+                <TableHead>Github</TableHead>
+                <TableHead>Website</TableHead>
+                <TableHead>Technologies</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {data
+                .filter((item) => item.technologies.includes("Firebase"))
+                .map((item) => (
+                  <TableRow key={item.id}>
+                    <TableCell>{item.projectName}</TableCell>
+                    <TableCell className="">
+                      <a href={item.github} target="_blank">
+                        <Github className="mx-auto md:ml-2" />
+                      </a>
+                    </TableCell>
+                    <TableCell className="">
+                      <a href={item.website} target="_blank">
+                        {item.website && (
+                          <CodeXml className="mx-auto md:ml-2" />
+                        )}
+                      </a>
+                    </TableCell>
+                    <TableCell className="flex items-center space-x-4">
+                      {item.technologies.map((tech) => (
+                        <div>
+                          <span>{tech}</span>
+                        </div>
+                      ))}
+                    </TableCell>
+                  </TableRow>
+                ))}
+            </TableBody>
+          </Table>
+        </div>
         <div className="Responsive Design">
           <h2 className="text-xl md:text-2xl mt-2">Responsive Design</h2>
           Started focusing on media queries and practicing responsive design, I
