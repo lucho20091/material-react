@@ -34,6 +34,16 @@ export default function Navbar() {
       >
         Github
       </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? "border-b-2 border-orange-600"
+            : "border-b-2 border-orange-100"
+        }
+        to={ROUTES.JOURNEY}
+      >
+        Journey
+      </NavLink>
     </navbar>
   );
 }

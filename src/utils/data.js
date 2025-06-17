@@ -37,8 +37,8 @@ export const data = [
   {
     id: 5.6,
     projectName: "Password Generator",
-    github: "https://github.com/lucho20091/unit-converter",
-    website: "https://github.com/lucho20091/password-generator",
+    github: "https://github.com/lucho20091/password-generator",
+    website: "https://passwordgenerator-lmms.netlify.app/",
     technologies: ["HTML", "CSS", "JS"],
   },
   {
@@ -46,7 +46,7 @@ export const data = [
     projectName: "We are the champions",
     github: "https://github.com/lucho20091/We-are-the-Champions",
     website: "https://we-are-the-champions-lmms.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 7,
@@ -60,42 +60,42 @@ export const data = [
     projectName: "Oldgram",
     github: "https://github.com/lucho20091/oldgram",
     website: "https://oldgram-lmms.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 9,
     projectName: "Oldgram v2",
     github: "https://github.com/lucho20091/oldgram-v2",
     website: "https://oldgramv2-lmms.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 10,
     projectName: "Oldgram v3",
     github: "https://github.com/lucho20091/oldgram-v3",
     website: "https://oldgramv3-lmms.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 11,
     projectName: "Send Img DB",
     github: "https://github.com/lucho20091/send-img-db",
     website: "https://send-img-db.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 12,
     projectName: "Send Img Text DB",
     github: "https://github.com/lucho20091/send-img-text-db-2",
     website: "https://send-img-text-db.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 13,
     projectName: "Chat App",
     github: "https://github.com/lucho20091/chat-app",
     website: "https://chatapp-lmms.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 14,
@@ -138,6 +138,7 @@ export const data = [
     github: "https://github.com/lucho20091/product-splash-page",
     website: "https://productsplash-v.netlify.app/",
     technologies: ["HTML", "CSS"],
+    responsive: true,
   },
   {
     id: 20,
@@ -222,6 +223,7 @@ export const data = [
     github: "https://github.com/lucho20091/Sprivaten",
     website: "https://sprivaten-css.netlify.app/",
     technologies: ["HTML", "CSS"],
+    responsive: true,
   },
   {
     id: 30,
@@ -229,6 +231,7 @@ export const data = [
     github: "https://github.com/lucho20091/portfolio-mockup",
     website: "https://portfolio-mockup-lmms.netlify.app/",
     technologies: ["HTML", "CSS"],
+    responsive: true,
   },
   {
     id: 31,
@@ -240,16 +243,16 @@ export const data = [
   {
     id: 32,
     projectName: "Firebase app Moody",
-    github: "https://github.com/lucho20091/portfolio-v1",
-    website: "https://portfolio-v1-lmms.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    github: "https://github.com/lucho20091/Firebase-app",
+    website: "https://Firebaseapp-lmms.netlify.app/",
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 33,
     projectName: "Firebase Ecommerce-mobile",
     github: "https://github.com/lucho20091/ecommerce-mobile",
     website: "https://ecommerce-v1-lmms.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 34,
@@ -271,7 +274,7 @@ export const data = [
     github:
       "https://github.com/lucho20091/Mobile-App-Old-from-Making-Websites-Interactive",
     website: "https://mobile-app-old-making-interactive-web.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 37,
@@ -285,7 +288,8 @@ export const data = [
     projectName: "Portfolio",
     github: "https://github.com/lucho20091/portfolio-july-14",
     website: "https://portfoliolmms.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
+    responsive: true,
   },
   {
     id: 38.5,
@@ -299,7 +303,7 @@ export const data = [
     projectName: "Portfolio",
     github: "https://github.com/lucho20091/portfolio-july-14",
     website: "https://portfoliolmms.netlify.app/",
-    technologies: ["HTML", "CSS", "JS", "FIREBASE"],
+    technologies: ["HTML", "CSS", "JS", "Firebase"],
   },
   {
     id: 40,
@@ -307,27 +311,29 @@ export const data = [
     github: "https://github.com/lucho20091/codevibing-something-v2",
     website: "https://majestic-marzipan-38530c.netlify.app/",
     technologies: ["React", "Tailwind", "Cursor"],
+    responsive: true,
   },
   {
     id: 41,
     projectName: "Reactgram",
     github: "https://github.com/lucho20091/instagram-clone-react",
     website: "https://reactgram-lmms.netlify.app/",
-    technologies: ["React", "Tailwind", "FIREBASE"],
+    technologies: ["React", "Tailwind", "Firebase"],
   },
   {
     id: 42,
     projectName: "Reactflix",
     github: "https://github.com/lucho20091/netflix-clone",
     website: "https://netfiixclone-react.netlify.app/",
-    technologies: ["React", "Tailwind", "FIREBASE"],
+    technologies: ["React", "Tailwind", "Firebase"],
   },
   {
     id: 43,
     projectName: "Portfolio",
     github: "https://github.com/lucho20091/cursor-portfolio",
     website: "https://portfolio-lmms.netlify.app/",
-    technologies: ["React", "Tailwind", "FIREBASE", "Cursor"],
+    technologies: ["React", "Tailwind", "Firebase", "Cursor"],
+    responsive: true,
   },
   {
     id: 44,
@@ -335,6 +341,7 @@ export const data = [
     github: "https://github.com/lucho20091/leadflow",
     website: "https://ladingpro.netlify.app/",
     technologies: ["React", "Tailwind", "Cursor"],
+    responsive: true,
   },
   {
     id: 45,
@@ -412,6 +419,7 @@ export const data = [
     github: "https://github.com/lucho20091/letterbox-test-3",
     website: "",
     technologies: ["JS", "Express", "React", "MongoDB", "Tailwind"],
+    responsive: true,
   },
   {
     id: 56,
@@ -426,6 +434,7 @@ export const data = [
     github: "https://github.com/lucho20091/letterbox-next",
     website: "https://www.lettermovies.lucho.uk/",
     technologies: ["Next", "Tailwind", "MongoDB"],
+    responsive: true,
   },
   {
     id: 58,
@@ -433,6 +442,7 @@ export const data = [
     github: "https://github.com/lucho20091/watchmovies",
     website: "https://moviesfree.lucho.uk/",
     technologies: ["Next", "Tailwind"],
+    responsive: true,
   },
   {
     id: 59,
@@ -440,5 +450,6 @@ export const data = [
     github: "https://github.com/lucho20091/html-tailwind",
     website: "https://digitallaunchpad.lucho.uk/",
     technologies: ["HTML", "Tailwind"],
+    responsive: true,
   },
 ];
