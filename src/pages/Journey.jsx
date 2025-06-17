@@ -49,7 +49,9 @@ export default function Journey() {
                 <TableHead>Name</TableHead>
                 <TableHead>Github</TableHead>
                 <TableHead>Website</TableHead>
-                <TableHead className="hidden md:block">Technologies</TableHead>
+                <TableHead className="hidden md:flex justify-start items-center	">
+                  Technologies
+                </TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -66,7 +68,7 @@ export default function Journey() {
                       {item.website && <CodeXml className="mx-auto md:ml-2" />}
                     </a>
                   </TableCell>
-                  <TableCell className="flex items-center space-x-4 hidden md:block">
+                  <TableCell className="items-center space-x-4 hidden md:flex">
                     {item.technologies.map((tech) => (
                       <div>
                         <span>{tech}</span>
@@ -93,7 +95,9 @@ export default function Journey() {
                 <TableHead>Name</TableHead>
                 <TableHead>Github</TableHead>
                 <TableHead>Website</TableHead>
-                <TableHead className="hidden md:block">Technologies</TableHead>
+                <TableHead className="hidden md:flex justify-start items-center	">
+                  Technologies
+                </TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -120,7 +124,7 @@ export default function Journey() {
                         )}
                       </a>
                     </TableCell>
-                    <TableCell className="flex items-center space-x-4 hidden md:block">
+                    <TableCell className="items-center space-x-4 hidden md:flex">
                       {item.technologies.map((tech) => (
                         <div>
                           <span>{tech}</span>
@@ -142,7 +146,9 @@ export default function Journey() {
                 <TableHead>Name</TableHead>
                 <TableHead>Github</TableHead>
                 <TableHead>Website</TableHead>
-                <TableHead className="hidden md:block">Technologies</TableHead>
+                <TableHead className="hidden md:flex justify-start items-center	">
+                  Technologies
+                </TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -163,7 +169,7 @@ export default function Journey() {
                         )}
                       </a>
                     </TableCell>
-                    <TableCell className="flex items-center space-x-4 hidden md:block">
+                    <TableCell className="items-center space-x-4 hidden md:flex">
                       {item.technologies.map((tech) => (
                         <div>
                           <span>{tech}</span>
@@ -187,7 +193,9 @@ export default function Journey() {
                 <TableHead>Name</TableHead>
                 <TableHead>Github</TableHead>
                 <TableHead>Website</TableHead>
-                <TableHead className="hidden md:block">Technologies</TableHead>
+                <TableHead className="hidden md:flex justify-start items-center	">
+                  Technologies
+                </TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -213,7 +221,7 @@ export default function Journey() {
                         )}
                       </a>
                     </TableCell>
-                    <TableCell className="flex items-center space-x-4 hidden md:block">
+                    <TableCell className="items-center space-x-4 hidden md:flex">
                       {item.technologies.map((tech) => (
                         <div>
                           <span>{tech}</span>
@@ -238,7 +246,9 @@ export default function Journey() {
                 <TableHead>Name</TableHead>
                 <TableHead>Github</TableHead>
                 <TableHead>Website</TableHead>
-                <TableHead className="hidden md:block">Technologies</TableHead>
+                <TableHead className="hidden md:flex justify-start items-center	">
+                  Technologies
+                </TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -263,7 +273,7 @@ export default function Journey() {
                         )}
                       </a>
                     </TableCell>
-                    <TableCell className="flex items-center space-x-4 hidden md:block">
+                    <TableCell className="items-center space-x-4 hidden md:flex">
                       {item.technologies.map((tech) => (
                         <div>
                           <span>{tech}</span>
@@ -298,7 +308,9 @@ export default function Journey() {
                 <TableHead>Name</TableHead>
                 <TableHead>Github</TableHead>
                 <TableHead>Website</TableHead>
-                <TableHead className="hidden md:block">Technologies</TableHead>
+                <TableHead className="hidden md:flex justify-start items-center	">
+                  Technologies
+                </TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -319,7 +331,7 @@ export default function Journey() {
                         )}
                       </a>
                     </TableCell>
-                    <TableCell className="flex items-center space-x-4 hidden md:block">
+                    <TableCell className="items-center space-x-4 hidden md:flex">
                       {item.technologies.map((tech) => (
                         <div>
                           <span>{tech}</span>
@@ -344,7 +356,9 @@ export default function Journey() {
                 <TableHead>Name</TableHead>
                 <TableHead>Github</TableHead>
                 <TableHead>Website</TableHead>
-                <TableHead className="hidden md:block">Technologies</TableHead>
+                <TableHead className="hidden md:flex justify-start items-center	">
+                  Technologies
+                </TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -365,7 +379,7 @@ export default function Journey() {
                         )}
                       </a>
                     </TableCell>
-                    <TableCell className="flex items-center space-x-4 hidden md:block">
+                    <TableCell className="items-center space-x-4 hidden md:flex">
                       {item.technologies.map((tech) => (
                         <div>
                           <span>{tech}</span>
