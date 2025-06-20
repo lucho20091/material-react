@@ -13,8 +13,16 @@ import { Github, CodeXml } from "lucide-react";
 export default function Journey() {
   return (
     <div className="p-4 mx-auto max-w-screen-lg">
-      <h1 className="text-2xl md:text-4xl">
+      <h1 className="text-2xl md:text-4xl flex items-center gap-4">
         My Journey through Web Development
+        <a
+          href="https://github.com/lucho20091/material-react"
+          target="_blank"
+          className="flex hover:text-blue-400"
+        >
+          <Github size={40} />
+          (this repo)
+        </a>
       </h1>
       <div className="text-xl">
         <div className="HTML and CSS">
